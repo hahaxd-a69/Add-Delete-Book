@@ -1,0 +1,103 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: aliceblue;
+  color: black;
+  margin: 0;
+}
+#wrapper {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+header {
+  background-color: antiquewhite;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#page-banner {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 20px;
+}
+#page-banner h1 {
+  margin: 10px;
+  font-size: 65px;
+  color: blue;
+}
+#page-banner p {
+  font-size: 20px;
+  color: black;
+}
+#search-books {
+  margin-top: 20px;
+}
+#search-books input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+#book-list {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#book-list h2 {
+  margin: 10px;
+  font-size: 35px;
+  color: #333;
+}
+#book-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+#book-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#book-list li span.name {
+  flex: 1;
+}
+#book-list li span.delete {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+#book-list li span.delete:hover {
+  color: darkred;
+}
+#Add-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#Add-book input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid rgb(37, 167, 81);
+  width: 70%;
+}
+#Add-book button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#Add-book button:hover {
+  background-color: darkgreen;
+}
